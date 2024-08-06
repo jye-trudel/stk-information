@@ -8,7 +8,6 @@ The Stock Data Scraper is a web-based application that allows users to input sto
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [License](#license)
 
 ## Features
 
@@ -22,7 +21,7 @@ The Stock Data Scraper is a web-based application that allows users to input sto
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/jye-trudel/information-stocks.git
+   git clone https://github.com/jye-trudel/stk-information.git
    cd information-stocks
 
 ## Usage
