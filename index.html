@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Scraper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Data Scraper</h1>
+        <div class="form-group">
+            <label for="stock">Stock Symbol</label>
+            <input type="text" id="stock" name="stock">
+            <div id="stock-dropdown" class="dropdown-content"></div>
+        </div>
+        <div class="form-group">
+            <label for="timeframe">Time Frame</label>
+            <select id="timeframe" name="timeframe"></select>
+        </div>
+        <button id="scrape-button">Scrape Data</button>
+        <button id="export-button">Export to CSV</button>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
